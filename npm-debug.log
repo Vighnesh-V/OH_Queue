@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/vighnesh/.nvm/versions/node/v5.0.0/bin/node',
+1 verbose cli   '/Users/vighnesh/.nvm/versions/node/v5.0.0/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose config Skipping project config: /Users/vighnesh/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info lifecycle tapp@0.1.0~prestart: tapp@0.1.0
+7 silly lifecycle tapp@0.1.0~prestart: no script for prestart, continuing
+8 info lifecycle tapp@0.1.0~start: tapp@0.1.0
+9 verbose lifecycle tapp@0.1.0~start: unsafe-perm in lifecycle true
+10 verbose lifecycle tapp@0.1.0~start: PATH: /Users/vighnesh/.nvm/versions/node/v5.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/vighnesh/node_modules/.bin:/Users/vighnesh/.opam/system/bin:/Users/vighnesh/.rvm/gems/ruby-2.4.1/bin:/Users/vighnesh/.rvm/gems/ruby-2.4.1@global/bin:/Users/vighnesh/.rvm/rubies/ruby-2.4.1/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/vighnesh/.local/bin:/Users/vighnesh/Library/Haskell/bin:/Users/vighnesh/.nvm/versions/node/v5.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/TeX/texbin:/Users/vighnesh/.rvm/bin
+11 verbose lifecycle tapp@0.1.0~start: CWD: /Users/vighnesh
+12 silly lifecycle tapp@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
+13 info lifecycle tapp@0.1.0~start: Failed to exec start script
+14 verbose stack Error: tapp@0.1.0 start: `react-scripts start`
+14 verbose stack spawn ENOENT
+14 verbose stack     at ChildProcess.<anonymous> (/Users/vighnesh/.nvm/versions/node/v5.0.0/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid tapp@0.1.0
+16 verbose cwd /Users/vighnesh/Documents/University/TA120/Dev/OH_Queue
+17 error Darwin 16.7.0
+18 error argv "/Users/vighnesh/.nvm/versions/node/v5.0.0/bin/node" "/Users/vighnesh/.nvm/versions/node/v5.0.0/bin/npm" "start"
+19 error node v5.0.0
+20 error npm  v3.3.6
+21 error file sh
+22 error code ELIFECYCLE
+23 error errno ENOENT
+24 error syscall spawn
+25 error tapp@0.1.0 start: `react-scripts start`
+25 error spawn ENOENT
+26 error Failed at the tapp@0.1.0 start script 'react-scripts start'.
+26 error This is most likely a problem with the tapp package,
+26 error not with npm itself.
+26 error Tell the author that this fails on your system:
+26 error     react-scripts start
+26 error You can get their info via:
+26 error     npm owner ls tapp
+26 error There is likely additional logging output above.
+27 verbose exit [ 1, true ]
